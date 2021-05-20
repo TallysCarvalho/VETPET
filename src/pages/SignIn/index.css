@@ -8,9 +8,18 @@
 
 @media screen and (max-width:768px){
     .Container_Sign{
-grid-template-columns: 1fr;
+        width: 100vw;
+    grid-template-columns: 1fr;
+    align-items: center;
+        justify-content: center;
     }
     .container-center{
+        display: flex;
+        
+        margin-left: 0;
+    }
+    .login{
+   
         margin-left: 30px;
     }
 }
